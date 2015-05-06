@@ -1,0 +1,4 @@
+/* clearfix */
+.clearfix, .formRow, section, article {
+	min-height: 0; 
+}
