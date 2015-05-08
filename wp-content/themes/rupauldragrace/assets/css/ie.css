@@ -1,0 +1,15 @@
+#isotope .block.magazine .over, #relatedNews a .content {
+	background:transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8C000000,endColorstr=#8C000000); 
+	zoom: 1;
+}
+#isotope .block.playlist .over, #isotope .block.album .over {
+	background: #000;`
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+#isotope .block.playlist:hover .over, #isotope .block.album:hover .over {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+#relatedNews a {
+	width: 191px;
+}
